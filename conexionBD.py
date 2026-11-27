@@ -9,4 +9,6 @@ try:
     )   
     cursor=conexion.cursor(buffered=True) 
 except:
-    print("...¡Por el momento no es posible conectarse con la BD, ... intentelo mas tarde ...")    
+    messagebox.showinfo(tittle="Sistema gestor de BD...", message=f"¡Por el momento no es posible conectarse con la BD, intentelo mas tarde")
+
+     
